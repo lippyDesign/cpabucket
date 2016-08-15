@@ -1,0 +1,398 @@
+body {
+    background: #F6F9F9;
+}
+.render-target {
+    margin: 0;
+    padding: 0;
+    background: #F6F9F9;
+}
+.homePageWrapper {
+    display: flex;
+    flex-direction: column;
+}
+.jumbotronWrapper, .formWrapper {
+    width: 100%;
+    min-height: 770px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #03a9f4;
+}
+.jumbotron {
+    background: #03a9f4;
+}
+.jumbotron h1, .jumbotron h3 {
+    text-align: center;
+    color: #f5f5f5;
+}
+.jumbotronParagraphWrapper, .jumbotronButtonWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jumbotronParagraph {
+    width: 60%;
+    text-align: center;
+    color: #ebebeb;
+}
+.navbar {
+    margin-bottom: 0;
+    padding-right: 15px;
+    background: #03a9f4;
+    border-radius: 0;
+}
+.navbar li a:hover {
+    background: #1976d2;
+}
+.navbar li a {
+    border-radius: 5px;
+}
+.navbar a {
+    color: #f5f5f5;
+}
+.navButton {
+    padding: 5px !important;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.mobileUl {
+    width: 100%;
+    margin-left: 7px;
+    position: relative;
+    top: -250px;
+    opacity: 0;
+    display: none;
+}
+.mobileUlAnimation {
+    display: block;
+    animation-name: mobileUlSlide;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.mobileItems {
+    color: black !important;
+    font-weight: bold;
+    padding: 0;
+}
+.mobileSignIn {
+    color: #337AB7 !important;
+    font-weight: bold;
+    padding: 0 40% 0 40%;
+}
+.mobileSignUp {
+    color: #5cb85c !important;
+    font-weight: bold;
+    padding: 0 40% 0 40%;
+}
+.mobileSignOut {
+    color: red !important;
+    font-weight: bold;
+    padding: 0 35% 0 35%;
+}
+.footer {
+    background: #1976d2;
+    margin-bottom: 0;
+}
+.footer li a {
+    color: #f5f5f5;
+}
+.footer ul li {
+    list-style-type: none;
+}
+.footerList {
+    margin-top: 11px;
+}
+.copyRight {
+    background: #1b71c5;
+    color: #ebebeb;
+    padding-top: 5px;
+}
+.forgotPasswordLink {
+    color: #ebebeb;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.messanger {
+    position: fixed;
+    top: 100px;
+    left: 10px;
+    background: #03a9f4;
+}
+.cardWrapper {
+    display: flex;
+    min-height: 740px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.questionWrapper, .testSelectionWrapper, .progressPageWrapper, .contactWrapper, .aboutUsWrapper, .LegalWrapper {
+    min-height: 770px;
+    padding-top: 30px;
+    font-size: 18px;
+}
+.paddingTopBottom10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.paddingTop10 {
+    padding-top: 10px;
+}
+.paddingTop20 {
+    padding-top: 20px;
+}
+.borderRed {
+    border: 2px solid red;
+}
+.testButton {
+    white-space: normal;
+    border: 1px solid black;
+}
+.displayNone {
+    display: none;
+}
+.displayBlock {
+    display: block;
+}
+.marginLeftTen {
+    margin-left: 10px;
+}
+.marginTop10 {
+    margin-top: 10px;
+}
+.marginRight5 {
+    margin-right: 5px;
+}
+.marginTop5 {
+    margin-top: 5px;
+}
+.marginBottom10 {
+    margin-bottom: 10px;
+}
+.marginBottom20 {
+    margin-bottom: 20px;
+}
+.paddingRightTen {
+    padding-right: 10px;
+}
+.paddingLeftRight5 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.paddingBottom20 {
+    padding-bottom: 20px;
+}
+.fontSize20 {
+    font-size: 20px;
+}
+.commentTextArea {
+    margin-right: 10px;
+}
+.commentButton {
+    margin-top: 10px;
+}
+.nextButton {
+    margin-top: 50px;
+}
+
+.singleMainItem {
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    min-height: 300px;
+    background: white;
+    border: 1px solid #efeff0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+.singleMainItem:hover {
+    background: #ececeb;
+    cursor: pointer;
+}
+.singleMainItem a{
+    text-decoration: none;
+}
+.dashboardItem {
+    margin: 25px;
+}
+.dashboardItem ul {
+    margin-left: -20px;
+}
+.dashboardItem h4 {
+    margin: 15px 0;
+    color: #a96163;
+}
+.answerChoiceInpput {
+    width: 400px !important;
+}
+.selectTestLinks a {
+    color: #337ab7;
+    text-decoration: none;
+    cursor: pointer;
+}
+.selectedLink {
+    border-bottom: 4px solid #a96163;
+}
+.testNavi {
+    color: white !important;
+}
+.mNaviCustom {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.listStyleNone {
+    list-style-type: none;
+}
+.colorBlack {
+    color: black !important;
+}
+.mobileNaviMainButton:hover {
+    background: #03a9f4 !important;
+}
+.contactWrapper {
+    background: #03a9f4;
+}
+.editDeleteButton {
+    margin-left: 10px;
+    width: 100px;
+}
+.mainMenuIcon {
+    color: white;
+    background: #5E656B;
+    font-size: 50px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.progressScores {
+    margin-top: 5px;
+    padding: 0;
+}
+.progressScores li {
+    width: 100%;
+}
+.testSelector, .progressScores, .questionAndAnswerChoices, .aboutCPAItems, .myQuestionsSingleQuestion {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+.settingsItem {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    background: white;
+    padding-bottom: 10px;
+}
+.activeNaviLink {
+    background: #1976d2;
+    color: white !important;
+    cursor: pointer;
+}
+.floatRight {
+    float: right;
+}
+.mobilNaviWrapper {
+    clear: right;
+    margin: 0 auto;
+}
+.mobileNaviUl {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    top: -450px;
+    opacity: 0
+}
+.mobileNaviUl li {
+    margin: 0 5px;
+    padding: 15px 0;
+}
+.navbar {
+    padding: 0;
+}
+.editButtons, .editButtonsWrapper {
+    display: inline-block;
+}
+
+/* -------------- GLYPHICONS ----------------------------------------------------------- */
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+.left-addon textarea  { padding-left:  30px; }
+.right-addon textarea { padding-right: 30px; }
+
+
+
+
+
+/* -------------- ANIMATIONS ----------------------------------------------------------- */
+
+@keyframes mobileUlSlide {
+    0%   {top:-450px; opacity: 0;} 
+    100% {top: 0px; opacity: 1;}
+}
+
+
+
+
+
+/* -------------- SMALL SCREENS ----------------------------------------------------------- */
+@media screen and (max-width: 1200px) {
+    .singleMainItem {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .singleMainItem {
+        width: 60%;
+    }
+    .mobileNaviMainButton {
+        float: right;
+    }
+}
+@media screen and (max-width: 750px) {
+    .jumbotronWrapper {
+        min-height: 300px;
+    }
+    .formWrapper {
+        min-height: 400px;
+    }
+    .progressPageWrapper, .contactWrapper, .cardWrapper, .aboutUsWrapper, .LegalWrapper {
+        min-height: 700px;
+    }
+    .messanger {
+        top: 50px;
+    }
+    .questionWrapper {
+        padding-top: 0;
+    }
+    .nextButton {
+        margin-top: 15px;
+    }
+    .mainListWrapper {
+        padding-top: 20px;
+    }
+    .singleMainItem {
+        width: 100%;
+    }
+    .mobileNaviMainButton {
+        float: right;
+    }
+}
